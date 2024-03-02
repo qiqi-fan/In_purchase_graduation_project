@@ -1,7 +1,7 @@
 <template>
     <a-layout>
       <a-layout-header :style="headerStyle">
-        <Tab></Tab>
+        <Tab>111</Tab>
       </a-layout-header>
       <a-layout-content :style="contentStyle">Content</a-layout-content>
       <a-layout-footer :style="footerStyle">Footer</a-layout-footer>
