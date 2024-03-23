@@ -9,12 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@iconify/json": "^2.2.194",
     "ant-design-vue": "^4.1.2",
+    "axios": "^1.6.7",
+    "jsencrypt": "^3.3.2",
+    "less": "^4.2.0",
     "pinia": "^2.1.7",
+    "unplugin-icons": "^0.18.5",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@iconify/vue": "^4.1.1",
     "@vitejs/plugin-vue": "^5.0.3",
     "vite": "^5.0.11"
   }
