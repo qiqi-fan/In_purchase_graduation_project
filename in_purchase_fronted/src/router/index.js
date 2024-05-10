@@ -6,6 +6,7 @@ import ShoppingCart from "@/views/ShoppingCart.vue";
 import UserHome from "@/views/UserHome.vue";
 import Login from "@/views/Login.vue";
 import Register from "@/components/Register.vue";
+import GoodsDetails from "@/views/GoodsDetails.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -28,6 +29,11 @@ const router = createRouter({
       path:'/user',
       name:'user',
       component:UserHome,
+    },
+    {
+      path:'/goods_details',
+      name:'goods_details',
+      component:GoodsDetails
     }
 //     {
 //       path: '/about',

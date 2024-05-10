@@ -166,7 +166,7 @@ const submitForm = async () => {
       .then(resp => {
         if(resp.data.code===200){
           const res_data = resp.data.data;
-          console.log(res_data.userInfo)
+          console.log(res_data)
           sessionStorage.setItem("currentUserName",res_data.userInfo.userName)
           // useStore.setUserId(res_data.userInfo.userID)
           // useStore.setUserName(res_data.userInfo.userName)
@@ -181,6 +181,7 @@ const submitForm = async () => {
           message.error(resp.data.msg)
         }
       }).catch(error=>{
+    console.log(error)
         message.error(error)
   })
 }
